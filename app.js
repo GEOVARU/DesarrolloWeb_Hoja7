@@ -9,7 +9,7 @@ const app = express();
 app.use(bodyParser.json());
 
 // Conectar a la base de datos MongoDB
-mongoose.connect('mongodb://localhost/tu_basededatos', {
+mongoose.connect('190.104.116.69/gestiones', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
